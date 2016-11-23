@@ -1,0 +1,194 @@
+body {
+	background-color: DodgerBlue;
+	font-family: 'Lato' , sans-serif;
+	color: #fff;
+	margin: auto;
+}
+
+.heading h1{
+	font-size: 100px;
+	padding-bottom: 10px;
+}
+.heading #wel{
+	padding-top: 70px;
+	font-size: 25px;
+	word-spacing: 0.3em;
+}
+ .banner .heading {
+ 	margin: auto;
+ 	position: relative;
+ 	text-transform: uppercase;
+ 	padding-top: 200px;
+ }
+ .heading{
+ 	max-width:900px;
+ 	margin:0 auto;
+}
+
+.heading .btn{
+
+	border: solid;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 200;
+  	color: #fff;
+	background-color: #1c1c1c;
+  	text-decoration: none;
+  	font-size: 24px;
+  	letter-spacing: 0.01em;
+  	padding: 7px 20px;
+    transition: padding 0.5s;
+
+}
+
+.heading .btn:hover{
+	padding: 11px 50px;
+}
+
+.heading #space{
+	padding-top: 1px;
+}
+.heading h1{
+	border: solid;
+	margin: 0px ;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 15px;
+	background-color: rgba(27,125,217,0.6);
+	color:rgba(28,30,32,1);
+	letter-spacing: 0.02em;
+}
+ .banner{
+ 	margin-top: 0px;
+ 	/*background: url("http://imgview.info/download/20160117/sky-tropics-sea-water-horizon-waves-ocean-1920x1200.jpg")no-repeat center center;*/
+ 	background: url("back.png") no-repeat center center;
+ 	background-size: cover;
+ 	height: 970px;
+ 	text-align: center;
+	background-attachment:fixed;
+ 
+ }
+/*--------------------------------------*/
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 65px;
+  background-color: rgba(0,0,0,0.2);
+  transition: background-color 0.5s;
+}
+.navbar:hover{
+	 background-color: rgba(0,0,0,1);
+
+}
+.contents{
+	font-family: 'Oswald',sans-serif;
+	font-weight: 50;
+ 	text-transform: uppercase;
+ 	font-size:40px;
+	letter-spacing: 0.05em;
+ 	
+ }
+
+#home a{
+	border-radius: 5px;
+	width: 90%;
+  	text-decoration: none;
+  	color: white;
+  	float: left;
+  	transition: background-color 0.5s;
+
+}
+#home a:hover{
+	background-color: dodgerblue;
+	color: black;
+}
+#home{
+	text-align: center;
+	margin-right: 70%;
+	margin-left: 15%;
+}
+#about a{
+	border-radius: 5px;
+  	text-decoration: none;
+  	color: white;
+  	width: 60%;
+  	float: left;
+  	transition: background-color 0.5s;
+
+}
+#about a:hover{
+	background-color: dodgerblue;
+	color: black;
+}
+#about{
+	text-align: center;
+	margin-right: 27%;
+	margin-left: 42%;
+
+}
+#contact a{
+	width: 90%;
+	border-radius: 5px;
+	float: left;
+  	text-decoration: none;
+  	color: white;
+  	transition: background-color 0.5s;
+}
+#contact a:hover{
+	background-color: dodgerblue;
+	color: black;
+}
+#contact{
+	text-align: center;
+	background-color: red;
+	border-radius: 5px;
+	margin-right: 14%;
+	margin-left: 71%;
+}
+
+.aboutinfo span{
+	color: #32E1FF;
+}
+#fline{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: rgba(255,255,255,0.6);
+	font-family: 'Lato' sans-serif;
+}
+#fpara{
+	margin-left: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 650px;
+	height:900px;
+	border-radius: 10px;
+	font-size: 28px;
+	line-height:1.5em;
+	font-family: 'Roboto', sans-serif;
+	transition: background-color 0.5s;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#fpara:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+.fixedblue{
+	border:solid;
+	border-color: rgba(0,0,0,0.0);
+	background: url("under.png") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#myimg{
+	margin-top: 0%;
+	margin-right: 10%;
+	float:right;
+	height: auto;
+
+}
+#lay{
+	height: 1000px;
+}
