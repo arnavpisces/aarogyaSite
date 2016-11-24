@@ -6,19 +6,26 @@ body {
 }
 
 .heading h1{
-	font-size: 100px;
+	width: 95%;
+	font-size: 120px;
 	padding-bottom: 10px;
+	border: solid;
+	margin: 0px ;
+	border-radius: 15px;
+	background-color: rgba(27,125,217,0.6);
+	color:rgba(28,30,32,1);
+	letter-spacing: 0.02em;
 }
 .heading #wel{
-	padding-top: 70px;
-	font-size: 25px;
+	padding-top:20%;
+	font-size: 32px;
 	word-spacing: 0.3em;
 }
  .banner .heading {
  	margin: auto;
  	position: relative;
  	text-transform: uppercase;
- 	padding-top: 200px;
+ 	padding-top: 240px;
  }
  .heading{
  	max-width:900px;
@@ -33,7 +40,7 @@ body {
   	color: #fff;
 	background-color: #1c1c1c;
   	text-decoration: none;
-  	font-size: 24px;
+  	font-size: 28px;
   	letter-spacing: 0.01em;
   	padding: 7px 20px;
     transition: padding 0.5s;
@@ -47,16 +54,7 @@ body {
 .heading #space{
 	padding-top: 1px;
 }
-.heading h1{
-	border: solid;
-	margin: 0px ;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-radius: 15px;
-	background-color: rgba(27,125,217,0.6);
-	color:rgba(28,30,32,1);
-	letter-spacing: 0.02em;
-}
+
  .banner{
  	margin-top: 0px;
  	/*background: url("http://imgview.info/download/20160117/sky-tropics-sea-water-horizon-waves-ocean-1920x1200.jpg")no-repeat center center;*/
@@ -154,18 +152,18 @@ body {
 #fline{
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 80px;
+	font-size: 100px;
 	color: rgba(255,255,255,0.6);
 	font-family: 'Lato' sans-serif;
 }
 #fpara{
-	margin-left: 45px;
+	margin-left: 6%;
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 650px;
+	width: 820px;
 	height:900px;
 	border-radius: 10px;
-	font-size: 28px;
+	font-size: 30px;
 	line-height:1.5em;
 	font-family: 'Roboto', sans-serif;
 	transition: background-color 0.5s;
@@ -181,14 +179,16 @@ body {
 	background: url("under.png") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
+	height: 1500px;
 }
 #myimg{
 	margin-top: 0%;
-	margin-right: 10%;
+	margin-right: 7%;
 	float:right;
-	height: auto;
+	height: 1100px;
 
 }
 #lay{
 	height: 1000px;
 }
+
