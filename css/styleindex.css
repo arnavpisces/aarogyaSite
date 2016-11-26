@@ -70,7 +70,7 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 1000;
   width: 100%;
   height: 65px;
   background-color: rgba(0,0,0,0.2);
@@ -205,6 +205,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	height: 1600px;
+	position: relative;
 }
 #myimg{
 	margin-top: 0%;
@@ -223,10 +224,99 @@ body {
 	background: url("img/con3.jpg") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 2500px;
+	height: 1000px;
 	text-align: center;
 
 }
+.contact a{
+  	color:white;
+
+}
 .contact i{
+	margin-left:2%;
 	font-size: 100px;
 }
+.contact #conline{
+	font-weight:bolder;
+	margin-left: 34.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 30%;
+	border-radius: 10px;
+	font-size: 50px;
+	line-height:1.5em;
+	font-family: 'Roboto', sans-serif;
+	transition: background-color 0.5s;
+}
+.contact #conline:hover{
+	color:#32E1FF;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+.contact .fa-facebook{
+	margin-right: 3%;
+	transition: color 0.5s;
+}
+.contact .fa-facebook:hover{
+	color: #3b5998;
+}
+.contact .fa-google{
+	margin-right: 3%;
+	transition: color 0.5s;
+}
+.contact .fa-google:hover{
+	color: #db3236;
+}
+
+.contact .fa-steam{
+	margin-right: 3%;
+	border-radius: 10%;
+	transition: color 0.5s;
+}
+.contact .fa-steam:hover{
+	background-color: white;
+	color: #000000;
+}
+/*
+.contact .fa-snapchat{
+	margin-right: 3%;
+	transition: color 0.5s;
+}
+.contact .fa-snapchat:hover{
+	color: #fffc00;
+}
+*/
+.contact .fa-wordpress{
+	margin-right: 3%;
+	border-radius: 100%;
+	transition: color 1s;
+}
+.contact .fa-wordpress:hover{
+	background-color: white;
+	color: #21759b;
+}
+
+.contact .fa-github{
+	margin-right: 3%;
+	transition: color 0.5s;
+}
+.contact .fa-github:hover{
+	color: #6e5494;
+}
+.contact .fa-instagram{
+	margin-right: 3%;
+	transition: color 0.5s;
+}
+.contact .fa-instagram:hover{
+	color: #e1306c;
+}
+.contact #end{
+	position: absolute;
+	bottom:0;
+	padding-left: 30%;
+	padding-bottom: 5%;
+}
+
+
+
+
