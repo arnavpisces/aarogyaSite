@@ -167,7 +167,6 @@ body {
 	border-radius: 5px;
 	margin-left: 51%;
 	width: 17%;
-	position: reltive;
 }
 
 .aboutinfo span{
@@ -195,6 +194,7 @@ body {
 	transition: background-color 0.5s;
 	text-align: justify;
     text-justify: inter-word;
+    background-color: rgba(0,0,0,0.1);
 }
 #fpara:hover{
 	background-color: rgba(0,0,0,0.5);
