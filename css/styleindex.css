@@ -32,20 +32,7 @@ body {
  	margin:0 auto;
 }
 
-.heading .btn{
 
-	border: solid;
-	font-family: 'Oswald',sans-serif;
-	font-weight: 200;
-  	color: #fff;
-	background-color: #1c1c1c;
-  	text-decoration: none;
-  	font-size: 28px;
-  	letter-spacing: 0.01em;
-  	padding: 7px 20px;
-    transition: padding 0.5s;
-
-}
 
 .heading .btn:hover{
 	padding: 11px 50px;
