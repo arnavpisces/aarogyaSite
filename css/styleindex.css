@@ -58,7 +58,7 @@ body {
  .banner{
  	margin-top: 0px;
  	/*background: url("http://imgview.info/download/20160117/sky-tropics-sea-water-horizon-waves-ocean-1920x1200.jpg")no-repeat center center;*/
- 	background: url("img/back.png") no-repeat center center;
+ 	background: url("img/bacsk.png") no-repeat center center;
  	background-size: cover;
  	height: 970px;
  	text-align: center;
@@ -180,13 +180,14 @@ body {
 	font-size: 100px;
 	color: rgba(255,255,255,0.6);
 	font-family: 'Lato' sans-serif;
+	
 }
 #fpara{
 	margin-left: 6%;
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 820px;
-	height:1100px;
+	width: 43%;
+	height:110%;
 	border-radius: 10px;
 	font-size: 30px;
 	line-height:1.5em;
@@ -212,7 +213,7 @@ body {
 	margin-top: 0%;
 	margin-right: 7%;
 	float:right;
-	height: 1100px;
+	height: 110%;
 
 }
 #lay{
